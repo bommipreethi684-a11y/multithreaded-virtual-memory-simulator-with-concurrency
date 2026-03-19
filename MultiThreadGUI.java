@@ -79,7 +79,7 @@ public class MultiThreadGUI extends JFrame {
     public MultiThreadGUI() {
         setTitle("Multithreaded Demand Paging Simulator with Concurrency");
         setSize(1200, 800);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new BorderLayout());
         
         threads = new ArrayList<>();

@@ -34,7 +34,7 @@ public class DemandPagingGUI extends JFrame {
     public DemandPagingGUI() {
         setTitle("Demand Paging Simulation - FIFO, LRU, MRU, OPT");
         setSize(900, 600);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));
 
         // Input Panel
